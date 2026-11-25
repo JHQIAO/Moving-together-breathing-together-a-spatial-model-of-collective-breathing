@@ -1,0 +1,343 @@
+{
+  "jobs": [
+    {
+      "name": "movement_wo0.15_wa1.25_s9301",
+      "mode": "movement_only",
+      "seed": 9301,
+      "seconds": 900.0,
+      "changes": {
+        "ro": 0.3,
+        "ra": 1.55
+      }
+    },
+    {
+      "name": "movement_wo0.15_wa1.25_s9302",
+      "mode": "movement_only",
+      "seed": 9302,
+      "seconds": 900.0,
+      "changes": {
+        "ro": 0.3,
+        "ra": 1.55
+      }
+    },
+    {
+      "name": "movement_wo0.15_wa1.25_s9303",
+      "mode": "movement_only",
+      "seed": 9303,
+      "seconds": 900.0,
+      "changes": {
+        "ro": 0.3,
+        "ra": 1.55
+      }
+    },
+    {
+      "name": "movement_wo0.15_wa2.50_s9301",
+      "mode": "movement_only",
+      "seed": 9301,
+      "seconds": 900.0,
+      "changes": {
+        "ro": 0.3,
+        "ra": 2.8
+      }
+    },
+    {
+      "name": "movement_wo0.15_wa2.50_s9302",
+      "mode": "movement_only",
+      "seed": 9302,
+      "seconds": 900.0,
+      "changes": {
+        "ro": 0.3,
+        "ra": 2.8
+      }
+    },
+    {
+      "name": "movement_wo0.15_wa2.50_s9303",
+      "mode": "movement_only",
+      "seed": 9303,
+      "seconds": 900.0,
+      "changes": {
+        "ro": 0.3,
+        "ra": 2.8
+      }
+    },
+    {
+      "name": "movement_wo0.15_wa5.00_s9301",
+      "mode": "movement_only",
+      "seed": 9301,
+      "seconds": 900.0,
+      "changes": {
+        "ro": 0.3,
+        "ra": 5.3
+      }
+    },
+    {
+      "name": "movement_wo0.15_wa5.00_s9302",
+      "mode": "movement_only",
+      "seed": 9302,
+      "seconds": 900.0,
+      "changes": {
+        "ro": 0.3,
+        "ra": 5.3
+      }
+    },
+    {
+      "name": "movement_wo0.15_wa5.00_s9303",
+      "mode": "movement_only",
+      "seed": 9303,
+      "seconds": 900.0,
+      "changes": {
+        "ro": 0.3,
+        "ra": 5.3
+      }
+    },
+    {
+      "name": "movement_wo0.30_wa1.25_s9301",
+      "mode": "movement_only",
+      "seed": 9301,
+      "seconds": 900.0,
+      "changes": {
+        "ro": 0.44999999999999996,
+        "ra": 1.7
+      }
+    },
+    {
+      "name": "movement_wo0.30_wa1.25_s9302",
+      "mode": "movement_only",
+      "seed": 9302,
+      "seconds": 900.0,
+      "changes": {
+        "ro": 0.44999999999999996,
+        "ra": 1.7
+      }
+    },
+    {
+      "name": "movement_wo0.30_wa1.25_s9303",
+      "mode": "movement_only",
+      "seed": 9303,
+      "seconds": 900.0,
+      "changes": {
+        "ro": 0.44999999999999996,
+        "ra": 1.7
+      }
+    },
+    {
+      "name": "movement_wo0.30_wa2.50_s9301",
+      "mode": "movement_only",
+      "seed": 9301,
+      "seconds": 900.0,
+      "changes": {
+        "ro": 0.44999999999999996,
+        "ra": 2.95
+      }
+    },
+    {
+      "name": "movement_wo0.30_wa2.50_s9302",
+      "mode": "movement_only",
+      "seed": 9302,
+      "seconds": 900.0,
+      "changes": {
+        "ro": 0.44999999999999996,
+        "ra": 2.95
+      }
+    },
+    {
+      "name": "movement_wo0.30_wa2.50_s9303",
+      "mode": "movement_only",
+      "seed": 9303,
+      "seconds": 900.0,
+      "changes": {
+        "ro": 0.44999999999999996,
+        "ra": 2.95
+      }
+    },
+    {
+      "name": "movement_wo0.30_wa5.00_s9301",
+      "mode": "movement_only",
+      "seed": 9301,
+      "seconds": 900.0,
+      "changes": {
+        "ro": 0.44999999999999996,
+        "ra": 5.45
+      }
+    },
+    {
+      "name": "movement_wo0.30_wa5.00_s9302",
+      "mode": "movement_only",
+      "seed": 9302,
+      "seconds": 900.0,
+      "changes": {
+        "ro": 0.44999999999999996,
+        "ra": 5.45
+      }
+    },
+    {
+      "name": "movement_wo0.30_wa5.00_s9303",
+      "mode": "movement_only",
+      "seed": 9303,
+      "seconds": 900.0,
+      "changes": {
+        "ro": 0.44999999999999996,
+        "ra": 5.45
+      }
+    },
+    {
+      "name": "movement_wo0.60_wa1.25_s9301",
+      "mode": "movement_only",
+      "seed": 9301,
+      "seconds": 900.0,
+      "changes": {
+        "ro": 0.75,
+        "ra": 2.0
+      }
+    },
+    {
+      "name": "movement_wo0.60_wa1.25_s9302",
+      "mode": "movement_only",
+      "seed": 9302,
+      "seconds": 900.0,
+      "changes": {
+        "ro": 0.75,
+        "ra": 2.0
+      }
+    },
+    {
+      "name": "movement_wo0.60_wa1.25_s9303",
+      "mode": "movement_only",
+      "seed": 9303,
+      "seconds": 900.0,
+      "changes": {
+        "ro": 0.75,
+        "ra": 2.0
+      }
+    },
+    {
+      "name": "movement_wo0.60_wa2.50_s9301",
+      "mode": "movement_only",
+      "seed": 9301,
+      "seconds": 900.0,
+      "changes": {
+        "ro": 0.75,
+        "ra": 3.25
+      }
+    },
+    {
+      "name": "movement_wo0.60_wa2.50_s9302",
+      "mode": "movement_only",
+      "seed": 9302,
+      "seconds": 900.0,
+      "changes": {
+        "ro": 0.75,
+        "ra": 3.25
+      }
+    },
+    {
+      "name": "movement_wo0.60_wa2.50_s9303",
+      "mode": "movement_only",
+      "seed": 9303,
+      "seconds": 900.0,
+      "changes": {
+        "ro": 0.75,
+        "ra": 3.25
+      }
+    },
+    {
+      "name": "movement_wo0.60_wa5.00_s9301",
+      "mode": "movement_only",
+      "seed": 9301,
+      "seconds": 900.0,
+      "changes": {
+        "ro": 0.75,
+        "ra": 5.75
+      }
+    },
+    {
+      "name": "movement_wo0.60_wa5.00_s9302",
+      "mode": "movement_only",
+      "seed": 9302,
+      "seconds": 900.0,
+      "changes": {
+        "ro": 0.75,
+        "ra": 5.75
+      }
+    },
+    {
+      "name": "movement_wo0.60_wa5.00_s9303",
+      "mode": "movement_only",
+      "seed": 9303,
+      "seconds": 900.0,
+      "changes": {
+        "ro": 0.75,
+        "ra": 5.75
+      }
+    },
+    {
+      "name": "breathing_ro0.8_s9301",
+      "mode": "breathing",
+      "seed": 9301,
+      "seconds": 1800.0,
+      "changes": {
+        "ro": 0.36000000000000004
+      }
+    },
+    {
+      "name": "breathing_ro0.8_s9302",
+      "mode": "breathing",
+      "seed": 9302,
+      "seconds": 1800.0,
+      "changes": {
+        "ro": 0.36000000000000004
+      }
+    },
+    {
+      "name": "breathing_ro0.8_s9303",
+      "mode": "breathing",
+      "seed": 9303,
+      "seconds": 1800.0,
+      "changes": {
+        "ro": 0.36000000000000004
+      }
+    },
+    {
+      "name": "breathing_ro1.2_s9301",
+      "mode": "breathing",
+      "seed": 9301,
+      "seconds": 1800.0,
+      "changes": {
+        "ro": 0.54
+      }
+    },
+    {
+      "name": "breathing_ro1.2_s9302",
+      "mode": "breathing",
+      "seed": 9302,
+      "seconds": 1800.0,
+      "changes": {
+        "ro": 0.54
+      }
+    },
+    {
+      "name": "breathing_ro1.2_s9303",
+      "mode": "breathing",
+      "seed": 9303,
+      "seconds": 1800.0,
+      "changes": {
+        "ro": 0.54
+      }
+    }
+  ],
+  "burn_seconds": 300,
+  "sample_dt": 1,
+  "workers": 3,
+  "reference": {
+    "rr": 0.15,
+    "ro": 0.45,
+    "ra": 2.95,
+    "orientation_width": 0.3,
+    "attraction_width": 2.5
+  },
+  "movement_only": "Disable breathing acceptance and oxygen-drive strengths; keep reserves fixed by zero depletion. Keep social movement, surface avoidance, bottom damping, boundaries and movement noise.",
+  "angular_momentum": "Norm of mean cross product of normalized minimum-image radial displacement from circular xy/arithmetic z centroid with unit heading. Report fraction of samples with either circular-centre strength below 0.2.",
+  "breathing_comparison": "Orientation radius \u00b120% with all other values fixed; reuse W4 tier1 control and attraction-radius \u00b120% runs (1800 s, same seeds) for comparison. No rate re-estimation.",
+  "interpretation": "Local sensitivity diagnostics; no changes to the selected reference and no parameter reselection.",
+  "preflight": "10 s all-sample state/position/heading/reserve replay passed"
+}

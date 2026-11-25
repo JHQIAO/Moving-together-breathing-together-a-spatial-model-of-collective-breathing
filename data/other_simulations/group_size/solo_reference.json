@@ -1,0 +1,165 @@
+{
+  "summary": {
+    "fast": {
+      "mean": 55.920452913905905,
+      "min": 55.32151286660453,
+      "max": 56.28830173382037,
+      "seeds": [
+        56.151544141292824,
+        56.28830173382037,
+        55.32151286660453
+      ],
+      "target": 55.630943,
+      "error_fraction": 0.005204116599387909,
+      "departure_tank": {
+        "mean": 0.47732256136152823,
+        "min": 0.47502537624971847,
+        "max": 0.48070634343349955,
+        "seeds": [
+          0.47502537624971847,
+          0.4762359644013668,
+          0.48070634343349955
+        ]
+      },
+      "records": [
+        "B_frozen_check_fast_RZ75_s8401",
+        "B_frozen_check_fast_RZ75_s8413",
+        "B_frozen_check_fast_RZ75_s8419"
+      ],
+      "heldout_pass": true,
+      "reused_initial_check": false
+    },
+    "medium": {
+      "mean": 85.75722240166205,
+      "min": 81.32274218645584,
+      "max": 91.36950832374959,
+      "seeds": [
+        84.57941669478073,
+        91.36950832374959,
+        81.32274218645584
+      ],
+      "target": 85.5925,
+      "error_fraction": 0.001924495740421639,
+      "departure_tank": {
+        "mean": 0.5060805465528254,
+        "min": 0.4750886231858874,
+        "max": 0.5294796681705181,
+        "seeds": [
+          0.5136733483020707,
+          0.4750886231858874,
+          0.5294796681705181
+        ]
+      },
+      "records": [
+        "B_frozen_check_medium_RZ75_s8401",
+        "B_frozen_check_medium_RZ75_s8413",
+        "B_frozen_check_medium_RZ75_s8419"
+      ],
+      "heldout_pass": true,
+      "reused_initial_check": false
+    },
+    "slow": {
+      "mean": 130.981898976287,
+      "min": 118.78199087474486,
+      "max": 141.1671926204965,
+      "seeds": [
+        141.1671926204965,
+        132.99651343361967,
+        118.78199087474486
+      ],
+      "target": 134.24,
+      "error_fraction": -0.02427071680358317,
+      "departure_tank": {
+        "mean": 0.5433694996396118,
+        "min": 0.5117944935516993,
+        "max": 0.5759482122652838,
+        "seeds": [
+          0.5117944935516993,
+          0.5423657931018522,
+          0.5759482122652838
+        ]
+      },
+      "records": [
+        "B_frozen_check_slow_RZ75_s8401",
+        "B_frozen_check_slow_RZ75_s8413",
+        "B_frozen_check_slow_RZ75_s8419"
+      ],
+      "heldout_pass": true,
+      "reused_initial_check": false
+    }
+  },
+  "runs": [
+    {
+      "type": "fast",
+      "name": "B_frozen_check_fast_RZ75_s8401",
+      "mean": 56.151544141292824,
+      "cv": 0.2037000357309327,
+      "n": 57,
+      "sha256": "ffada4dd4798eaf9e0b81f726b2d59594982b465b9b269d76ea3aeb282202e67"
+    },
+    {
+      "type": "fast",
+      "name": "B_frozen_check_fast_RZ75_s8413",
+      "mean": 56.28830173382037,
+      "cv": 0.22204954224349896,
+      "n": 57,
+      "sha256": "c506510ffcfb7f91f2058218b54292d68d92646268fb07b1d2316cde07d5cecc"
+    },
+    {
+      "type": "fast",
+      "name": "B_frozen_check_fast_RZ75_s8419",
+      "mean": 55.32151286660453,
+      "cv": 0.23256979153575363,
+      "n": 58,
+      "sha256": "afe3e8289cbef148ec87d54c57e0fdb4a500d540d8b36ea6372513ab313a0b30"
+    },
+    {
+      "type": "medium",
+      "name": "B_frozen_check_medium_RZ75_s8401",
+      "mean": 84.57941669478073,
+      "cv": 0.2636253771791443,
+      "n": 37,
+      "sha256": "d135e2d26206de97cee0932ae80d0a47c3a3deb139532c4b861848122b51c381"
+    },
+    {
+      "type": "medium",
+      "name": "B_frozen_check_medium_RZ75_s8413",
+      "mean": 91.36950832374959,
+      "cv": 0.20643619670947627,
+      "n": 35,
+      "sha256": "a7ab38aa5684fef6ed96b39bc1abe53393a2fd0eac13d039521fec7d086d146c"
+    },
+    {
+      "type": "medium",
+      "name": "B_frozen_check_medium_RZ75_s8419",
+      "mean": 81.32274218645584,
+      "cv": 0.21986757883356162,
+      "n": 39,
+      "sha256": "849fafc71cf5d3ead35055811367c26ef0d606124e61d90a1abe2d3169f3182c"
+    },
+    {
+      "type": "slow",
+      "name": "B_frozen_check_slow_RZ75_s8401",
+      "mean": 141.1671926204965,
+      "cv": 0.1531790451353991,
+      "n": 23,
+      "sha256": "09cf41ff3b67d8d0f13886103953ab7cfeade2d1fc01af9b4fcfcb4fd16aad96"
+    },
+    {
+      "type": "slow",
+      "name": "B_frozen_check_slow_RZ75_s8413",
+      "mean": 132.99651343361967,
+      "cv": 0.17366557216911369,
+      "n": 24,
+      "sha256": "06ce006c0e9c9829189b20d15af6b0956d0d742420b1ffe017c5e442f4213ad4"
+    },
+    {
+      "type": "slow",
+      "name": "B_frozen_check_slow_RZ75_s8419",
+      "mean": 118.78199087474486,
+      "cv": 0.2247380153488384,
+      "n": 27,
+      "sha256": "9e9b1a3449cfb915da975aaa96ec8d99691378ad769de1c7114afcda06c8fcad"
+    }
+  ]
+}

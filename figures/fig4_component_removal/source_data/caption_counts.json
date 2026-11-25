@@ -1,0 +1,47 @@
+{
+  "complete": true,
+  "n_by_condition": {
+    "A0": 10,
+    "A1": 10,
+    "A2": 10,
+    "A8": 10,
+    "A6": 10
+  },
+  "flags_by_condition": {
+    "A0": 0,
+    "A1": 0,
+    "A2": 0,
+    "A8": 10,
+    "A6": 0
+  },
+  "horizons_s": {
+    "A0": 7500.0,
+    "A1": 7500.0,
+    "A2": 3600.0,
+    "A8": 7500.0,
+    "A6": 7500.0
+  },
+  "burn_s": 300,
+  "uncertainty": "Equal-weight run means; \u00b11 sample SD (ddof=1).",
+  "matched_horizon_note": "Full-model results use the first7500 s of each long reference run, matching the original ablation horizon.",
+  "rules": {
+    "burn_s": 300,
+    "saved_trajectory_interval_s": 1,
+    "episode_prefix": "Keep completed episodes with exit <= analysis horizon before grouping.",
+    "collective_events": "Original metrics_w2.canonical: release-to-exit chains with 1-s separation; unique participants; event start >=300 s and event end <=T-2 s.",
+    "individual_intervals": "Consecutive completed episodes per fish; preceding exit >=300 s and next release <=T; pool intervals within each run.",
+    "trace_time_mask": "300 <= saved time < T (final sample excluded).",
+    "polarization": "Norm of mean 3D heading over current schooling fish, averaged across retained samples.",
+    "low_height_fraction": "Fraction of retained samples with the whole-population median height <1 BL.",
+    "rhythm_flag": "Descriptive post-hoc flag: mean schooling polarization <0.2 AND low_height_fraction >=0.95. Not a statistical test for periodicity.",
+    "uncertainty": "Equal-weight run means; \u00b11 sample SD (ddof=1).",
+    "baseline": "Ten W1 runs truncated to7500 s; do not substitute their full13440-s metrics.",
+    "horizons": {
+      "A0": 7500.0,
+      "A1": 7500.0,
+      "A2": 3600.0,
+      "A8": 7500.0,
+      "A6": 7500.0
+    }
+  }
+}

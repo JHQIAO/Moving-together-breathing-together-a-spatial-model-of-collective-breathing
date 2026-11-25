@@ -1,0 +1,2458 @@
+{
+  "runs": [
+    {
+      "job": {
+        "name": "breathing_ro0.8_s9301",
+        "mode": "breathing",
+        "seed": 9301,
+        "seconds": 1800.0,
+        "changes": {
+          "ro": 0.36000000000000004
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.36000000000000004,
+        "ra": 2.95,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.35,
+        "consumption_rates": [
+          0.00840887578389495,
+          0.005158809198668612,
+          0.003100327856481332
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.1,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.7617399361545134,
+        "angular_momentum": 0.1555328704686375,
+        "ambiguous_circular_centre_fraction": 0.035333333333333335,
+        "gap_mean": 13.917192191319257,
+        "participation_mean": 0.5500694444444445,
+        "n_events": 72
+      },
+      "elapsed_s": 227.52797299996018,
+      "sha256": "806b75d4a9506a7046b98a8ae918e025a6f25afd5be4203b2d25bc6c546dbce9",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "breathing_ro0.8_s9302",
+        "mode": "breathing",
+        "seed": 9302,
+        "seconds": 1800.0,
+        "changes": {
+          "ro": 0.36000000000000004
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.36000000000000004,
+        "ra": 2.95,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.35,
+        "consumption_rates": [
+          0.00840887578389495,
+          0.005158809198668612,
+          0.003100327856481332
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.1,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.754584261301171,
+        "angular_momentum": 0.15010749285373193,
+        "ambiguous_circular_centre_fraction": 0.042,
+        "gap_mean": 14.302660367915527,
+        "participation_mean": 0.5134285714285712,
+        "n_events": 70
+      },
+      "elapsed_s": 225.3916843328625,
+      "sha256": "16ab478ff5d19cc7c07c63e65f4ddcb50611874dfa9b9481286f647118f7ea9b",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "breathing_ro0.8_s9303",
+        "mode": "breathing",
+        "seed": 9303,
+        "seconds": 1800.0,
+        "changes": {
+          "ro": 0.36000000000000004
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.36000000000000004,
+        "ra": 2.95,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.35,
+        "consumption_rates": [
+          0.00840887578389495,
+          0.005158809198668612,
+          0.003100327856481332
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.1,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.759387658715433,
+        "angular_momentum": 0.17022543274153848,
+        "ambiguous_circular_centre_fraction": 0.051333333333333335,
+        "gap_mean": 13.130801506922147,
+        "participation_mean": 0.4799333333333334,
+        "n_events": 75
+      },
+      "elapsed_s": 227.65583316609263,
+      "sha256": "e047ca24e8a9a2c2db99a76060f239799ade078dbfa3bbf48a2d86608f33e5fb",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "breathing_ro1.2_s9301",
+        "mode": "breathing",
+        "seed": 9301,
+        "seconds": 1800.0,
+        "changes": {
+          "ro": 0.54
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.54,
+        "ra": 2.95,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.35,
+        "consumption_rates": [
+          0.00840887578389495,
+          0.005158809198668612,
+          0.003100327856481332
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.1,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.8497357705176213,
+        "angular_momentum": 0.2191218057842412,
+        "ambiguous_circular_centre_fraction": 0.06866666666666667,
+        "gap_mean": 12.788699190627367,
+        "participation_mean": 0.3322159090909091,
+        "n_events": 88
+      },
+      "elapsed_s": 225.56251775007695,
+      "sha256": "ffd0e637b07a766a9961098a14705e63e4d06ff1a7f07945d4b2f6041834f726",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "breathing_ro1.2_s9302",
+        "mode": "breathing",
+        "seed": 9302,
+        "seconds": 1800.0,
+        "changes": {
+          "ro": 0.54
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.54,
+        "ra": 2.95,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.35,
+        "consumption_rates": [
+          0.00840887578389495,
+          0.005158809198668612,
+          0.003100327856481332
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.1,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.8746354249710142,
+        "angular_momentum": 0.20779037769743558,
+        "ambiguous_circular_centre_fraction": 0.048666666666666664,
+        "gap_mean": 13.949911771521734,
+        "participation_mean": 0.35365853658536583,
+        "n_events": 82
+      },
+      "elapsed_s": 227.94638816686347,
+      "sha256": "70d98c758089908282d2808d8125679dba26a1f9f648e980dbefe75e1e3fda54",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "breathing_ro1.2_s9303",
+        "mode": "breathing",
+        "seed": 9303,
+        "seconds": 1800.0,
+        "changes": {
+          "ro": 0.54
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.54,
+        "ra": 2.95,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.35,
+        "consumption_rates": [
+          0.00840887578389495,
+          0.005158809198668612,
+          0.003100327856481332
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.1,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.8142866404062586,
+        "angular_momentum": 0.2622399481883743,
+        "ambiguous_circular_centre_fraction": 0.10933333333333334,
+        "gap_mean": 12.662990453998104,
+        "participation_mean": 0.32640449438202246,
+        "n_events": 89
+      },
+      "elapsed_s": 225.15091175027192,
+      "sha256": "511171bb82e0c8c5519f505fed60821bfc7f30dc0f9a1ce9f6f8ee4bedd2c499",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "movement_wo0.15_wa1.25_s9301",
+        "mode": "movement_only",
+        "seed": 9301,
+        "seconds": 900.0,
+        "changes": {
+          "ro": 0.3,
+          "ra": 1.55
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.3,
+        "ra": 1.55,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.0,
+        "consumption_rates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.0,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.7711060903757072,
+        "angular_momentum": 0.14893349244750875,
+        "ambiguous_circular_centre_fraction": 0.0
+      },
+      "elapsed_s": 97.86572995781898,
+      "sha256": "031d84cb95ff199f70a3e92c1d213eceb438027f6a5069b68f8c3a277574a4a5",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "movement_wo0.15_wa1.25_s9302",
+        "mode": "movement_only",
+        "seed": 9302,
+        "seconds": 900.0,
+        "changes": {
+          "ro": 0.3,
+          "ra": 1.55
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.3,
+        "ra": 1.55,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.0,
+        "consumption_rates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.0,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.7526020257421738,
+        "angular_momentum": 0.1601994192534482,
+        "ambiguous_circular_centre_fraction": 0.055
+      },
+      "elapsed_s": 98.42038083309308,
+      "sha256": "07daa472fb3bd92a7c143d34afe257bc6397ca0afc74c61f137fab697fadeb0c",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "movement_wo0.15_wa1.25_s9303",
+        "mode": "movement_only",
+        "seed": 9303,
+        "seconds": 900.0,
+        "changes": {
+          "ro": 0.3,
+          "ra": 1.55
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.3,
+        "ra": 1.55,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.0,
+        "consumption_rates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.0,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.7601450051382508,
+        "angular_momentum": 0.16180820288232992,
+        "ambiguous_circular_centre_fraction": 0.015
+      },
+      "elapsed_s": 97.705475917086,
+      "sha256": "1cd175e400def02fbf07ac3ca5da67d9108de1bdaa34efbeabb25368f4b4a349",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "movement_wo0.15_wa2.50_s9301",
+        "mode": "movement_only",
+        "seed": 9301,
+        "seconds": 900.0,
+        "changes": {
+          "ro": 0.3,
+          "ra": 2.8
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.3,
+        "ra": 2.8,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.0,
+        "consumption_rates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.0,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.7681864415904108,
+        "angular_momentum": 0.1564619864906861,
+        "ambiguous_circular_centre_fraction": 0.03666666666666667
+      },
+      "elapsed_s": 98.50193512486294,
+      "sha256": "ea4940ad684d3deb0c770c63d800a8b466256acae122f22fa6f70702197b5652",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "movement_wo0.15_wa2.50_s9302",
+        "mode": "movement_only",
+        "seed": 9302,
+        "seconds": 900.0,
+        "changes": {
+          "ro": 0.3,
+          "ra": 2.8
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.3,
+        "ra": 2.8,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.0,
+        "consumption_rates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.0,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.6647702202675788,
+        "angular_momentum": 0.23840416341042495,
+        "ambiguous_circular_centre_fraction": 0.03333333333333333
+      },
+      "elapsed_s": 99.15397629188374,
+      "sha256": "bf6845cc3d636c63173c68c2df61d13bc5ee378d89419a2fd21e549ce90d0e98",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "movement_wo0.15_wa2.50_s9303",
+        "mode": "movement_only",
+        "seed": 9303,
+        "seconds": 900.0,
+        "changes": {
+          "ro": 0.3,
+          "ra": 2.8
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.3,
+        "ra": 2.8,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.0,
+        "consumption_rates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.0,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.7469625510723094,
+        "angular_momentum": 0.19859853756054216,
+        "ambiguous_circular_centre_fraction": 0.08333333333333333
+      },
+      "elapsed_s": 100.25325237493962,
+      "sha256": "83e86fb956694baa67282dfacc9cdfffc2e25a166b8d64ecf1e01e14228d0b15",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "movement_wo0.15_wa5.00_s9301",
+        "mode": "movement_only",
+        "seed": 9301,
+        "seconds": 900.0,
+        "changes": {
+          "ro": 0.3,
+          "ra": 5.3
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.3,
+        "ra": 5.3,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.0,
+        "consumption_rates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.0,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.7657132460420086,
+        "angular_momentum": 0.16003224963048562,
+        "ambiguous_circular_centre_fraction": 0.035
+      },
+      "elapsed_s": 103.11658908380195,
+      "sha256": "f08a58ccf92c1cdcba336a6b421a83bce8306ad4115b314f957b491a37eb7376",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "movement_wo0.15_wa5.00_s9302",
+        "mode": "movement_only",
+        "seed": 9302,
+        "seconds": 900.0,
+        "changes": {
+          "ro": 0.3,
+          "ra": 5.3
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.3,
+        "ra": 5.3,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.0,
+        "consumption_rates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.0,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.6952774839578513,
+        "angular_momentum": 0.19992590653096504,
+        "ambiguous_circular_centre_fraction": 0.06166666666666667
+      },
+      "elapsed_s": 104.42043154221028,
+      "sha256": "1fca54698b0c5411e501dcf005532c69584a6abe6f32e5b612f7c07b87045196",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "movement_wo0.15_wa5.00_s9303",
+        "mode": "movement_only",
+        "seed": 9303,
+        "seconds": 900.0,
+        "changes": {
+          "ro": 0.3,
+          "ra": 5.3
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.3,
+        "ra": 5.3,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.0,
+        "consumption_rates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.0,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.7592095158096788,
+        "angular_momentum": 0.1568557078670443,
+        "ambiguous_circular_centre_fraction": 0.04666666666666667
+      },
+      "elapsed_s": 104.01635479182005,
+      "sha256": "905612f673087c8011eb9e9188d5da1d2c5176bc95e4d1588123c15199a40539",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "movement_wo0.30_wa1.25_s9301",
+        "mode": "movement_only",
+        "seed": 9301,
+        "seconds": 900.0,
+        "changes": {
+          "ro": 0.44999999999999996,
+          "ra": 1.7
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.44999999999999996,
+        "ra": 1.7,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.0,
+        "consumption_rates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.0,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.9844817896715073,
+        "angular_momentum": 0.03296185557833777,
+        "ambiguous_circular_centre_fraction": 0.0
+      },
+      "elapsed_s": 102.39929070835933,
+      "sha256": "3bc9b9fd5637bd2c002585cb7e930cc5a7ae75647005bad22e74cd555c8c7a78",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "movement_wo0.30_wa1.25_s9302",
+        "mode": "movement_only",
+        "seed": 9302,
+        "seconds": 900.0,
+        "changes": {
+          "ro": 0.44999999999999996,
+          "ra": 1.7
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.44999999999999996,
+        "ra": 1.7,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.0,
+        "consumption_rates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.0,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.9834489711105505,
+        "angular_momentum": 0.030874419714163277,
+        "ambiguous_circular_centre_fraction": 0.0
+      },
+      "elapsed_s": 102.52172766672447,
+      "sha256": "53432d67d10a2048b2cadad2e3f5e85c9799040d78a329cb9e83516a4b282e72",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "movement_wo0.30_wa1.25_s9303",
+        "mode": "movement_only",
+        "seed": 9303,
+        "seconds": 900.0,
+        "changes": {
+          "ro": 0.44999999999999996,
+          "ra": 1.7
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.44999999999999996,
+        "ra": 1.7,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.0,
+        "consumption_rates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.0,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.9849070698325773,
+        "angular_momentum": 0.026004847332868734,
+        "ambiguous_circular_centre_fraction": 0.0
+      },
+      "elapsed_s": 101.69011204177514,
+      "sha256": "5132b399b99cb131021907acd2b285fd39246bee1fd23c269049719eddf2528b",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "movement_wo0.30_wa2.50_s9301",
+        "mode": "movement_only",
+        "seed": 9301,
+        "seconds": 900.0,
+        "changes": {
+          "ro": 0.44999999999999996,
+          "ra": 2.95
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.44999999999999996,
+        "ra": 2.95,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.0,
+        "consumption_rates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.0,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.9844588381483593,
+        "angular_momentum": 0.025793899103126492,
+        "ambiguous_circular_centre_fraction": 0.0
+      },
+      "elapsed_s": 102.33213470829651,
+      "sha256": "4894a24cf9b620a7a3d9261843eb2cb8197bdfa3fc3b55f862278bf732d8d86f",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "movement_wo0.30_wa2.50_s9302",
+        "mode": "movement_only",
+        "seed": 9302,
+        "seconds": 900.0,
+        "changes": {
+          "ro": 0.44999999999999996,
+          "ra": 2.95
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.44999999999999996,
+        "ra": 2.95,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.0,
+        "consumption_rates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.0,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.9842221337221589,
+        "angular_momentum": 0.027790988775550113,
+        "ambiguous_circular_centre_fraction": 0.0
+      },
+      "elapsed_s": 103.21633345773444,
+      "sha256": "c1630c4b00e43fecaa2091a9c05dc9c5ec42eaea288e38972224fa46effc0280",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "movement_wo0.30_wa2.50_s9303",
+        "mode": "movement_only",
+        "seed": 9303,
+        "seconds": 900.0,
+        "changes": {
+          "ro": 0.44999999999999996,
+          "ra": 2.95
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.44999999999999996,
+        "ra": 2.95,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.0,
+        "consumption_rates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.0,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.9841144192133217,
+        "angular_momentum": 0.02886715377288649,
+        "ambiguous_circular_centre_fraction": 0.0
+      },
+      "elapsed_s": 102.44534041639417,
+      "sha256": "72bc5b1a2ec2fcd296e9ef93faaa864d3f0002c6e1f7976e0d21ebe1af06830e",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "movement_wo0.30_wa5.00_s9301",
+        "mode": "movement_only",
+        "seed": 9301,
+        "seconds": 900.0,
+        "changes": {
+          "ro": 0.44999999999999996,
+          "ra": 5.45
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.44999999999999996,
+        "ra": 5.45,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.0,
+        "consumption_rates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.0,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.9850512034354101,
+        "angular_momentum": 0.025205019682410193,
+        "ambiguous_circular_centre_fraction": 0.0
+      },
+      "elapsed_s": 104.50361612485722,
+      "sha256": "0f11991183923f5ff0f485048973b9ad8533f5459c2183354d7e2f4fd3ca7e73",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "movement_wo0.30_wa5.00_s9302",
+        "mode": "movement_only",
+        "seed": 9302,
+        "seconds": 900.0,
+        "changes": {
+          "ro": 0.44999999999999996,
+          "ra": 5.45
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.44999999999999996,
+        "ra": 5.45,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.0,
+        "consumption_rates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.0,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.9842221337221589,
+        "angular_momentum": 0.027790988775550113,
+        "ambiguous_circular_centre_fraction": 0.0
+      },
+      "elapsed_s": 105.23918954236433,
+      "sha256": "c1630c4b00e43fecaa2091a9c05dc9c5ec42eaea288e38972224fa46effc0280",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "movement_wo0.30_wa5.00_s9303",
+        "mode": "movement_only",
+        "seed": 9303,
+        "seconds": 900.0,
+        "changes": {
+          "ro": 0.44999999999999996,
+          "ra": 5.45
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.44999999999999996,
+        "ra": 5.45,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.0,
+        "consumption_rates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.0,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.9841144192133217,
+        "angular_momentum": 0.02886715377288649,
+        "ambiguous_circular_centre_fraction": 0.0
+      },
+      "elapsed_s": 106.60745370900258,
+      "sha256": "72bc5b1a2ec2fcd296e9ef93faaa864d3f0002c6e1f7976e0d21ebe1af06830e",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "movement_wo0.60_wa1.25_s9301",
+        "mode": "movement_only",
+        "seed": 9301,
+        "seconds": 900.0,
+        "changes": {
+          "ro": 0.75,
+          "ra": 2.0
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.75,
+        "ra": 2.0,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.0,
+        "consumption_rates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.0,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.9841392708808989,
+        "angular_momentum": 0.060868631523018496,
+        "ambiguous_circular_centre_fraction": 0.17
+      },
+      "elapsed_s": 103.29768662480637,
+      "sha256": "2c9cb26225f896d9ed0f133ca9f4fe6b8255597fe4238df116a558281f2f5800",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "movement_wo0.60_wa1.25_s9302",
+        "mode": "movement_only",
+        "seed": 9302,
+        "seconds": 900.0,
+        "changes": {
+          "ro": 0.75,
+          "ra": 2.0
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.75,
+        "ra": 2.0,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.0,
+        "consumption_rates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.0,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.9854810624244223,
+        "angular_momentum": 0.04385497770054117,
+        "ambiguous_circular_centre_fraction": 0.29833333333333334
+      },
+      "elapsed_s": 103.61915504233912,
+      "sha256": "c193a9b80f36752bc86e187d28f5ef1eba761b9538cd615854c4381b4cc46528",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "movement_wo0.60_wa1.25_s9303",
+        "mode": "movement_only",
+        "seed": 9303,
+        "seconds": 900.0,
+        "changes": {
+          "ro": 0.75,
+          "ra": 2.0
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.75,
+        "ra": 2.0,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.0,
+        "consumption_rates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.0,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.9884544890350203,
+        "angular_momentum": 0.033704588300545485,
+        "ambiguous_circular_centre_fraction": 0.78
+      },
+      "elapsed_s": 105.18200704222545,
+      "sha256": "b21976231de860213195500c9040966b1189778cef1030ad73ed39dbfb4bc659",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "movement_wo0.60_wa2.50_s9301",
+        "mode": "movement_only",
+        "seed": 9301,
+        "seconds": 900.0,
+        "changes": {
+          "ro": 0.75,
+          "ra": 3.25
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.75,
+        "ra": 3.25,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.0,
+        "consumption_rates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.0,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.9869837386384223,
+        "angular_momentum": 0.05293542483478719,
+        "ambiguous_circular_centre_fraction": 0.38
+      },
+      "elapsed_s": 105.91950383316725,
+      "sha256": "b881a996d0567b185193ca3fda4b41560abfb1d326baed32fe89cbbe574b77a8",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "movement_wo0.60_wa2.50_s9302",
+        "mode": "movement_only",
+        "seed": 9302,
+        "seconds": 900.0,
+        "changes": {
+          "ro": 0.75,
+          "ra": 3.25
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.75,
+        "ra": 3.25,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.0,
+        "consumption_rates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.0,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.9865446654606429,
+        "angular_momentum": 0.04690496860867663,
+        "ambiguous_circular_centre_fraction": 0.45666666666666667
+      },
+      "elapsed_s": 105.3973750830628,
+      "sha256": "25e2ca33fbe7e179427a7bc4a60208705eb8cce5d13c87b324be6d1693b8e492",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "movement_wo0.60_wa2.50_s9303",
+        "mode": "movement_only",
+        "seed": 9303,
+        "seconds": 900.0,
+        "changes": {
+          "ro": 0.75,
+          "ra": 3.25
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.75,
+        "ra": 3.25,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.0,
+        "consumption_rates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.0,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.985189372468675,
+        "angular_momentum": 0.033148399149967735,
+        "ambiguous_circular_centre_fraction": 0.03166666666666667
+      },
+      "elapsed_s": 105.47466904157773,
+      "sha256": "94865f1290a06536a1f7b8db9dd21d5a70138a86388fb441619c31b29c4d6db5",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "movement_wo0.60_wa5.00_s9301",
+        "mode": "movement_only",
+        "seed": 9301,
+        "seconds": 900.0,
+        "changes": {
+          "ro": 0.75,
+          "ra": 5.75
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.75,
+        "ra": 5.75,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.0,
+        "consumption_rates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.0,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.9869837386384223,
+        "angular_momentum": 0.05293542483478719,
+        "ambiguous_circular_centre_fraction": 0.38
+      },
+      "elapsed_s": 105.57283987477422,
+      "sha256": "b881a996d0567b185193ca3fda4b41560abfb1d326baed32fe89cbbe574b77a8",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "movement_wo0.60_wa5.00_s9302",
+        "mode": "movement_only",
+        "seed": 9302,
+        "seconds": 900.0,
+        "changes": {
+          "ro": 0.75,
+          "ra": 5.75
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.75,
+        "ra": 5.75,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.0,
+        "consumption_rates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.0,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.9865446654606429,
+        "angular_momentum": 0.04690496860867663,
+        "ambiguous_circular_centre_fraction": 0.45666666666666667
+      },
+      "elapsed_s": 105.09877675026655,
+      "sha256": "25e2ca33fbe7e179427a7bc4a60208705eb8cce5d13c87b324be6d1693b8e492",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    },
+    {
+      "job": {
+        "name": "movement_wo0.60_wa5.00_s9303",
+        "mode": "movement_only",
+        "seed": 9303,
+        "seconds": 900.0,
+        "changes": {
+          "ro": 0.75,
+          "ra": 5.75
+        }
+      },
+      "params": {
+        "N": 200,
+        "box": [
+          10.0,
+          3.3,
+          3.3
+        ],
+        "dt": 0.025,
+        "speed": 0.6,
+        "rr": 0.15,
+        "ro": 0.75,
+        "ra": 5.75,
+        "vision_k": 24,
+        "fov_deg": 335.0,
+        "turning_rate": 3.141592653589793,
+        "eta": 0.3,
+        "surface_strength": 0.3,
+        "glide_layer": 0.6,
+        "guard_margin": 0.05,
+        "upward_strength": 0.0,
+        "consumption_rates": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trigger_depth": 0.6,
+        "breath_time": 0.15,
+        "refill_level": 0.95,
+        "return_depth": 0.7,
+        "fermi_midpoint": 0.8,
+        "fermi_temperature": 0.1,
+        "decision_timescale": 0.3,
+        "ascent_speed": 2.1,
+        "return_turning_rate": 7.853981633974483,
+        "release_depth": 0.5,
+        "reaction_interval": 0.05,
+        "need_setpoint": 0.75,
+        "surface_layer": 1.5,
+        "dilution": true,
+        "dilution_radius": 1.0,
+        "dilution_min": 0.2,
+        "dilution_scale": 6.0,
+        "vertical_noise_scale": 0.2,
+        "need_down": 0.0,
+        "descent_speed": 0.6,
+        "kappa_bottom": 0.3,
+        "rest_height": 1.0,
+        "return_clearance": 0.09999999999999998
+      },
+      "metrics": {
+        "polarization": 0.985189372468675,
+        "angular_momentum": 0.033148399149967735,
+        "ambiguous_circular_centre_fraction": 0.03166666666666667
+      },
+      "elapsed_s": 105.07927787490189,
+      "sha256": "94865f1290a06536a1f7b8db9dd21d5a70138a86388fb441619c31b29c4d6db5",
+      "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+    }
+  ]
+}

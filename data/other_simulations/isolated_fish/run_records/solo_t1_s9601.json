@@ -1,0 +1,155 @@
+{
+  "job": {
+    "name": "solo_t1_s9601",
+    "arm": "A0",
+    "depth": 3.3,
+    "type": 1,
+    "seed": 9601,
+    "seconds": 7200.0,
+    "burn": 300.0
+  },
+  "params": {
+    "N": 1,
+    "box": [
+      10.0,
+      3.3,
+      3.3
+    ],
+    "dt": 0.025,
+    "speed": 0.6,
+    "rr": 0.15,
+    "ro": 0.45,
+    "ra": 2.95,
+    "vision_k": 24,
+    "fov_deg": 335.0,
+    "turning_rate": 3.141592653589793,
+    "eta": 0.3,
+    "surface_strength": 0.3,
+    "side_layer": 1.0,
+    "vertical_layer": 0.2,
+    "wall_strength": 1.0,
+    "glide_layer": 0.6,
+    "guard_margin": 0.05,
+    "boundary_scope": "vertical",
+    "upward_strength": 0.35,
+    "consumption_rates": [
+      0.00840887578389495,
+      0.005158809198668612,
+      0.003100327856481332
+    ],
+    "type_ratio": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "trigger_depth": 0.6,
+    "breath_time": 0.15,
+    "refill_level": 0.95,
+    "return_clearance": 0.09999999999999998,
+    "breathing_enabled": true,
+    "decision_policy": "fermi",
+    "fermi_midpoint": 0.8,
+    "fermi_temperature": 0.1,
+    "decision_timescale": 0.3,
+    "return_depth": 0.7,
+    "attraction_quota": 0,
+    "partial_amount": 0.0,
+    "cue_mode": "off",
+    "cue_k": 50,
+    "join_midpoint": 0.6,
+    "join_temperature": 0.08,
+    "cue_reset_s": 2.0,
+    "ascent_speed": 2.1,
+    "return_turning_rate": 7.853981633974483,
+    "motor_social_weight": 0.0,
+    "release_depth": 0.5,
+    "movement_cycle": true,
+    "reaction_interval": 0.05,
+    "signed_need": true,
+    "need_setpoint": 0.75,
+    "local_surface": true,
+    "surface_layer": 1.5,
+    "dilution": true,
+    "dilution_radius": 1.0,
+    "dilution_min": 0.2,
+    "dilution_scale": 6.0,
+    "entry_decision": false,
+    "vertical_noise_scale": 0.2,
+    "school_band_weight": 0.0,
+    "lopsided_need": true,
+    "follow_dasher": false,
+    "need_down": 0.1,
+    "follow_depth": 1.5,
+    "follow_radius": 1.0,
+    "follow_duration": 0.5,
+    "follow_weight": 1.0,
+    "follow_speed": 2.0,
+    "follow_stop_depth": 0.2,
+    "follow_refractory": 2.0,
+    "descent_speed": 0.6,
+    "kappa_bottom": 0.3,
+    "rest_height": 1.0
+  },
+  "changes": {
+    "N": {
+      "from": 200,
+      "to": 1
+    },
+    "type_ratio": {
+      "from": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "to": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    }
+  },
+  "seed": 9601,
+  "seconds": 7200.0,
+  "elapsed_s": 90.26256187516265,
+  "sha256": "31543068c3cc352bfcea4278cda0fbad37924f3c03d3f55b418f841d5ce75948",
+  "code_sha256": {
+    "breathing_model2.py": "239475076eb7d5571d7f1e8de8604135f075f3b7800ae40d0e745836bca7f6c0",
+    "study_out/local_work/breathing_types_step6/typed_model.py": "a12983ee4d425641f938207cabeb44637cc8e6f270b0d8c059926b156395188a",
+    "study_out/local_work/cruise_speed_step24/model24.py": "73d2317e953849264b927b3fd83b40833e6a067db72af1394a92cc5fa73c5d98",
+    "study_out/local_work/dasher_need_step23/model23.py": "b55d5c77bfcae47d27b1bdbd4784372139d5d8af4c84535f0b950654ae8abc3a",
+    "study_out/local_work/decision_layer_step8/decision_model.py": "5074af518a95552e4de330e6315c6db61e17bc14787c48b62c603e323470e8d5",
+    "study_out/local_work/fermi_decision_step9/fermi_model.py": "5abc31f3dc4e03a724a56bc57d83f2455e255cb750af0d06c6ca4191e86548b0",
+    "study_out/local_work/group_interventions_step10/intervention_model.py": "8214b8539176c21b543e64c4ed7f785224801d5fb486ab8704b066ca5b69db48",
+    "study_out/local_work/local_recruitment_step13/model13.py": "51b932a3165f1c0c02b89ee53cecf9f87d154d4b7f2a9c8fca420498319467a6",
+    "study_out/local_work/movement_cycle_step21/model21.py": "51dffe1c584d088598853d796a43b3c12040c88c71b5811b47d5e41f37421b66",
+    "study_out/local_work/rest_zone_step25/model25.py": "f1ebb53ddba784cb79bde0e00fd1803d0d5698dbaea5a726222700d9c661a51b",
+    "study_out/local_work/surface_force_step1/model.py": "85f16ea433cb752dd3258170e66a5e00827dda10cce5a3d7ea42181e811d8583",
+    "study_out/local_work/surface_force_step1/periodic_model.py": "a1340801367f95deb982599bcf830b7863d30b5ac868e410de1e23cde5e74482",
+    "study_out/local_work/surface_force_step1/smooth_model.py": "6c4b019d3d33e8735b34b439ed3bf5c7fa2bc4116e9b3b9f506e09c4d4231c27",
+    "study_out/local_work/vertical_noise_step22/model22.py": "b6803eef7abeac116558ca9a714ff1fe6597449b5152e757a994d7ced59d6621",
+    "study_out/rz75_paper/W2_mechanism/model_w2.py": "2a33c3864dbb70b1e15cb213d5ab17e04de294fd69b900aae7b6c0c3c79faf8f",
+    "study_out/rz75_paper/W2_mechanism/run_w2.py": "32cc0796e57f18124170a1a63bfde0abb2db5e8ec3b91cb57cbf7bfd5b0f2a84",
+    "study_out/rz75_paper/W8_results_gaps/run_solo.py": "be1f73bd6b9f07282dbb89dab9ef49555d9bc5aba700078055d5aa977e561339"
+  },
+  "storage_dtypes": {
+    "time": "float32",
+    "pos": "float32",
+    "heading": "float32",
+    "tank": "float32",
+    "status": "int8",
+    "episodes13": "[('release', '<f8'), ('exit', '<f8'), ('agent', '<i4'), ('release_x', '<f8'), ('release_y', '<f8'), ('contact', '<f8'), ('contact_x', '<f8'), ('contact_y', '<f8'), ('depart', '<f8'), ('tank_depart', '<f8'), ('reason', '<U24')]",
+    "events": "[('time', '<f8'), ('agent', '<i4'), ('from_state', 'i1'), ('to_state', 'i1'), ('z', '<f8'), ('tank_before', '<f8'), ('tank_after', '<f8'), ('reason', '<U24')]",
+    "decision_trials": "[('time', '<f8'), ('agent', '<i4'), ('z', '<f8'), ('tank', '<f8'), ('probability', '<f8'), ('draw', '<f8'), ('accepted', '?')]",
+    "entries21": "[('time', '<f8'), ('agent', '<i4'), ('entry', '<i4'), ('z', '<f8'), ('tank', '<f8'), ('probability', '<f8'), ('draw', '<f8'), ('accepted', '?')]",
+    "type_id": "int8",
+    "agent_consumption_rates": "float64"
+  },
+  "audit": {
+    "budget_error": 0.0,
+    "displacement_error": 1.6862653690324064e-15,
+    "turn_violations": 0,
+    "initialization": {
+      "kind": "random"
+    }
+  }
+}

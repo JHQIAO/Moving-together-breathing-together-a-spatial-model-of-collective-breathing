@@ -1,0 +1,6 @@
+condition,n,duration_s,collective_interval_s,individual_interval_s,small_events_percent,schooling_polarization,low_height_percent,flagged_runs
+Full model,10,7500.0,15.10 ± 0.40,49.15 ± 0.64,16.35 ± 1.54,0.887 ± 0.010,54.72 ± 1.45,0/10
+No rest zone,10,7500.0,10.46 ± 0.18,32.05 ± 0.56,17.75 ± 2.30,0.886 ± 0.008,36.48 ± 0.27,0/10
+No oxygen drive,10,3600.0,88.74 ± 9.62,631.25 ± 111.87,90.75 ± 6.00,0.978 ± 0.002,74.15 ± 0.78,0/10
+No orientation or attraction,10,7500.0,1.34 ± 0.04,64.37 ± 0.04,18.41 ± 2.48,0.0674 ± 0.0004,99.64 ± 0.10,10/10
+No surface avoidance,10,7500.0,18.41 ± 0.79,43.38 ± 0.78,4.58 ± 1.75,0.872 ± 0.009,64.47 ± 1.21,0/10

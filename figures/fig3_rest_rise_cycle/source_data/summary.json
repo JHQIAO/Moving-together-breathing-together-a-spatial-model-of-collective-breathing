@@ -1,0 +1,139 @@
+{
+  "n_runs": 10,
+  "seeds": [
+    9001,
+    9002,
+    9003,
+    9004,
+    9005,
+    9006,
+    9007,
+    9008,
+    9009,
+    9010
+  ],
+  "example_seed": 9001,
+  "example_window_s": [
+    300,
+    420
+  ],
+  "example_scope": "Individual fish in all states; grey bands over all 200 fish; black summaries schooling-only",
+  "type_colors": {
+    "Fast": "#c97924",
+    "Medium": "#679ab6",
+    "Slow": "#8064a2"
+  },
+  "complete_windows": 5733,
+  "counts": [
+    {
+      "seed": 9001,
+      "postburn_liftoffs": 589,
+      "complete_windows": 587,
+      "excluded_edge_windows": 2,
+      "observation_end": 13440.0,
+      "run_duration_s": 13440.0
+    },
+    {
+      "seed": 9002,
+      "postburn_liftoffs": 576,
+      "complete_windows": 576,
+      "excluded_edge_windows": 0,
+      "observation_end": 13440.0,
+      "run_duration_s": 13440.0
+    },
+    {
+      "seed": 9003,
+      "postburn_liftoffs": 578,
+      "complete_windows": 576,
+      "excluded_edge_windows": 2,
+      "observation_end": 13440.0,
+      "run_duration_s": 13440.0
+    },
+    {
+      "seed": 9004,
+      "postburn_liftoffs": 583,
+      "complete_windows": 581,
+      "excluded_edge_windows": 2,
+      "observation_end": 13440.0,
+      "run_duration_s": 13440.0
+    },
+    {
+      "seed": 9005,
+      "postburn_liftoffs": 573,
+      "complete_windows": 571,
+      "excluded_edge_windows": 2,
+      "observation_end": 13440.0,
+      "run_duration_s": 13440.0
+    },
+    {
+      "seed": 9006,
+      "postburn_liftoffs": 567,
+      "complete_windows": 565,
+      "excluded_edge_windows": 2,
+      "observation_end": 13440.0,
+      "run_duration_s": 13440.0
+    },
+    {
+      "seed": 9007,
+      "postburn_liftoffs": 584,
+      "complete_windows": 583,
+      "excluded_edge_windows": 1,
+      "observation_end": 13440.0,
+      "run_duration_s": 13440.0
+    },
+    {
+      "seed": 9008,
+      "postburn_liftoffs": 565,
+      "complete_windows": 564,
+      "excluded_edge_windows": 1,
+      "observation_end": 13440.0,
+      "run_duration_s": 13440.0
+    },
+    {
+      "seed": 9009,
+      "postburn_liftoffs": 569,
+      "complete_windows": 567,
+      "excluded_edge_windows": 2,
+      "observation_end": 13440.0,
+      "run_duration_s": 13440.0
+    },
+    {
+      "seed": 9010,
+      "postburn_liftoffs": 563,
+      "complete_windows": 563,
+      "excluded_edge_windows": 0,
+      "observation_end": 13440.0,
+      "run_duration_s": 13440.0
+    }
+  ],
+  "peak_search_s": [
+    -5,
+    12
+  ],
+  "peak_refinement": "Interior parabola with shift clipped to \u00b10.5 s; first maximum for ties",
+  "paired_peak_lags": {
+    "drive_to_breaths": {
+      "median": 2.100590181807128,
+      "mean": 0.8400538376303769,
+      "positive_fraction": 0.865864294435723
+    },
+    "breaths_to_height": {
+      "median": 0.5505508342305059,
+      "mean": 1.0926706157186115,
+      "positive_fraction": 0.8965637537066109
+    },
+    "drive_to_height": {
+      "median": 2.7341498806972506,
+      "mean": 1.9327244533489882,
+      "positive_fraction": 0.8540031397174255
+    }
+  },
+  "c_uncertainty": "\u00b11 sample SD across ten equally weighted run-level mean curves",
+  "d_summary": "Pooled window peak times: median, quartiles, 10th\u201390th percentile whiskers and outliers",
+  "simulations_run": 0,
+  "example_fish_ids": [
+    0,
+    2,
+    4
+  ]
+}

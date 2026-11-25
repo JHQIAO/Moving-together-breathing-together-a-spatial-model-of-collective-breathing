@@ -1,0 +1,207 @@
+{
+  "job": {
+    "arm": "same_N50",
+    "protocol": "same",
+    "N": 50,
+    "seed": 9204,
+    "changes": {
+      "N": 50
+    },
+    "name": "same_N50_s9204",
+    "seconds": 7500.0,
+    "burn": 300.0,
+    "sample_dt": 1.0
+  },
+  "params": {
+    "N": 50,
+    "box": [
+      10.0,
+      3.3,
+      3.3
+    ],
+    "dt": 0.025,
+    "speed": 0.6,
+    "rr": 0.15,
+    "ro": 0.45,
+    "ra": 2.95,
+    "vision_k": 24,
+    "fov_deg": 335.0,
+    "turning_rate": 3.141592653589793,
+    "eta": 0.3,
+    "surface_strength": 0.3,
+    "side_layer": 1.0,
+    "vertical_layer": 0.2,
+    "wall_strength": 1.0,
+    "glide_layer": 0.6,
+    "guard_margin": 0.05,
+    "boundary_scope": "vertical",
+    "upward_strength": 0.35,
+    "consumption_rates": [
+      0.00840887578389495,
+      0.005158809198668612,
+      0.003100327856481332
+    ],
+    "type_ratio": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "trigger_depth": 0.6,
+    "breath_time": 0.15,
+    "refill_level": 0.95,
+    "return_clearance": 0.09999999999999998,
+    "breathing_enabled": true,
+    "decision_policy": "fermi",
+    "fermi_midpoint": 0.8,
+    "fermi_temperature": 0.1,
+    "decision_timescale": 0.3,
+    "return_depth": 0.7,
+    "attraction_quota": 0,
+    "partial_amount": 0.0,
+    "cue_mode": "off",
+    "cue_k": 50,
+    "join_midpoint": 0.6,
+    "join_temperature": 0.08,
+    "cue_reset_s": 2.0,
+    "ascent_speed": 2.1,
+    "return_turning_rate": 7.853981633974483,
+    "motor_social_weight": 0.0,
+    "release_depth": 0.5,
+    "movement_cycle": true,
+    "reaction_interval": 0.05,
+    "signed_need": true,
+    "need_setpoint": 0.75,
+    "local_surface": true,
+    "surface_layer": 1.5,
+    "dilution": true,
+    "dilution_radius": 1.0,
+    "dilution_min": 0.2,
+    "dilution_scale": 6.0,
+    "entry_decision": false,
+    "vertical_noise_scale": 0.2,
+    "school_band_weight": 0.0,
+    "lopsided_need": true,
+    "follow_dasher": false,
+    "need_down": 0.1,
+    "follow_depth": 1.5,
+    "follow_radius": 1.0,
+    "follow_duration": 0.5,
+    "follow_weight": 1.0,
+    "follow_speed": 2.0,
+    "follow_stop_depth": 0.2,
+    "follow_refractory": 2.0,
+    "descent_speed": 0.6,
+    "kappa_bottom": 0.3,
+    "rest_height": 1.0
+  },
+  "changed_parameters": {
+    "N": 50
+  },
+  "seed": 9204,
+  "seconds": 7500.0,
+  "burn": 300.0,
+  "elapsed_s": 240.10562095791101,
+  "sha256": "3c274bcdd1e4626ef95b25362be729bd71c673ef191089751bcbbd24de6a7be2",
+  "code_version": "W3 standalone RZ75; frozen full Sim25 parameter dataclass",
+  "model_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be",
+  "runner_sha256": "157337e8a846b99cf72f9f2a594a9509637e7146af89b55cffb37e26a1ac04dc",
+  "python": "3.11.8",
+  "numpy": "2.4.3",
+  "type_counts": [
+    17,
+    17,
+    16
+  ],
+  "pid": 56101,
+  "budget_error": 0.0,
+  "turn_violations": 0,
+  "boundary_corrections": 0,
+  "arrays": {
+    "time": {
+      "shape": [
+        7501
+      ],
+      "dtype": "float32"
+    },
+    "pos": {
+      "shape": [
+        7501,
+        50,
+        3
+      ],
+      "dtype": "float32"
+    },
+    "heading": {
+      "shape": [
+        7501,
+        50,
+        3
+      ],
+      "dtype": "float32"
+    },
+    "tank": {
+      "shape": [
+        7501,
+        50
+      ],
+      "dtype": "float32"
+    },
+    "status": {
+      "shape": [
+        7501,
+        50
+      ],
+      "dtype": "int8"
+    },
+    "type_id": {
+      "shape": [
+        50
+      ],
+      "dtype": "int8"
+    },
+    "agent_consumption_rates": {
+      "shape": [
+        50
+      ],
+      "dtype": "float64"
+    },
+    "episodes13": {
+      "shape": [
+        10292
+      ],
+      "dtype": "[('release', '<f8'), ('exit', '<f8'), ('agent', '<i4'), ('release_x', '<f8'), ('release_y', '<f8'), ('contact', '<f8'), ('contact_x', '<f8'), ('contact_y', '<f8'), ('depart', '<f8'), ('tank_depart', '<f8'), ('reason', '<U24')]"
+    },
+    "events": {
+      "shape": [
+        51458
+      ],
+      "dtype": "[('time', '<f8'), ('agent', '<i4'), ('from_state', 'i1'), ('to_state', 'i1'), ('z', '<f8'), ('tank_before', '<f8'), ('tank_after', '<f8'), ('reason', '<U24')]"
+    },
+    "decision_trials": {
+      "shape": [
+        175055
+      ],
+      "dtype": "[('time', '<f8'), ('agent', '<i4'), ('z', '<f8'), ('tank', '<f8'), ('probability', '<f8'), ('draw', '<f8'), ('accepted', '?')]"
+    },
+    "entries21": {
+      "shape": [
+        10806
+      ],
+      "dtype": "[('time', '<f8'), ('agent', '<i4'), ('entry', '<i4'), ('z', '<f8'), ('tank', '<f8'), ('probability', '<f8'), ('draw', '<f8'), ('accepted', '?')]"
+    },
+    "state_agent_seconds": {
+      "shape": [
+        5
+      ],
+      "dtype": "float64"
+    },
+    "empty_postburn_agent_seconds": {
+      "shape": [],
+      "dtype": "float64"
+    },
+    "audit_burn": {
+      "shape": [],
+      "dtype": "float64"
+    }
+  }
+}

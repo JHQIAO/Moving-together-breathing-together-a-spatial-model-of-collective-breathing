@@ -1,0 +1,76 @@
+{
+  "job": {
+    "name": "breathing_ro0.8_s9302",
+    "mode": "breathing",
+    "seed": 9302,
+    "seconds": 1800.0,
+    "changes": {
+      "ro": 0.36000000000000004
+    }
+  },
+  "params": {
+    "N": 200,
+    "box": [
+      10.0,
+      3.3,
+      3.3
+    ],
+    "dt": 0.025,
+    "speed": 0.6,
+    "rr": 0.15,
+    "ro": 0.36000000000000004,
+    "ra": 2.95,
+    "vision_k": 24,
+    "fov_deg": 335.0,
+    "turning_rate": 3.141592653589793,
+    "eta": 0.3,
+    "surface_strength": 0.3,
+    "glide_layer": 0.6,
+    "guard_margin": 0.05,
+    "upward_strength": 0.35,
+    "consumption_rates": [
+      0.00840887578389495,
+      0.005158809198668612,
+      0.003100327856481332
+    ],
+    "type_ratio": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "trigger_depth": 0.6,
+    "breath_time": 0.15,
+    "refill_level": 0.95,
+    "return_depth": 0.7,
+    "fermi_midpoint": 0.8,
+    "fermi_temperature": 0.1,
+    "decision_timescale": 0.3,
+    "ascent_speed": 2.1,
+    "return_turning_rate": 7.853981633974483,
+    "release_depth": 0.5,
+    "reaction_interval": 0.05,
+    "need_setpoint": 0.75,
+    "surface_layer": 1.5,
+    "dilution": true,
+    "dilution_radius": 1.0,
+    "dilution_min": 0.2,
+    "dilution_scale": 6.0,
+    "vertical_noise_scale": 0.2,
+    "need_down": 0.1,
+    "descent_speed": 0.6,
+    "kappa_bottom": 0.3,
+    "rest_height": 1.0,
+    "return_clearance": 0.09999999999999998
+  },
+  "metrics": {
+    "polarization": 0.754584261301171,
+    "angular_momentum": 0.15010749285373193,
+    "ambiguous_circular_centre_fraction": 0.042,
+    "gap_mean": 14.302660367915527,
+    "participation_mean": 0.5134285714285712,
+    "n_events": 70
+  },
+  "elapsed_s": 225.3916843328625,
+  "sha256": "16ab478ff5d19cc7c07c63e65f4ddcb50611874dfa9b9481286f647118f7ea9b",
+  "engine_sha256": "d9d0d58461d10c9c18fd08096336689f597444aa17a3b3c0b3e25081729016be"
+}

@@ -1,0 +1,274 @@
+{
+  "complete": true,
+  "partial_mode": false,
+  "n_runs_total": 50,
+  "n_runs_expected": 50,
+  "missing": [],
+  "conditions": {
+    "A0": {
+      "label": "Full model",
+      "n": 10,
+      "seeds": [
+        9001,
+        9002,
+        9003,
+        9004,
+        9005,
+        9006,
+        9007,
+        9008,
+        9009,
+        9010
+      ],
+      "seconds": 7500.0,
+      "statistics": {
+        "gap_mean": {
+          "mean": 15.099363343293419,
+          "sd": 0.4022673111279827
+        },
+        "small_fraction": {
+          "mean": 0.1634815933547956,
+          "sd": 0.015396605218163637
+        },
+        "individual_mean": {
+          "mean": 49.14858342421398,
+          "sd": 0.6391666630327177
+        },
+        "polarization": {
+          "mean": 0.8874854425144145,
+          "sd": 0.009676160677129723
+        },
+        "low_height_fraction": {
+          "mean": 0.5471666666666668,
+          "sd": 0.014473232234133295
+        },
+        "participation_mean": {
+          "mean": 0.39052415710225,
+          "sd": 0.009805090033319898
+        },
+        "class_next_rho": {
+          "mean": 0.35323435895531996,
+          "sd": 0.02797876199130377
+        }
+      },
+      "flagged_runs": 0,
+      "all_runs_flagged": false
+    },
+    "A1": {
+      "label": "No rest zone",
+      "n": 10,
+      "seeds": [
+        9001,
+        9002,
+        9003,
+        9004,
+        9005,
+        9006,
+        9007,
+        9008,
+        9009,
+        9010
+      ],
+      "seconds": 7500.0,
+      "statistics": {
+        "gap_mean": {
+          "mean": 10.461419440752028,
+          "sd": 0.17803571144747005
+        },
+        "small_fraction": {
+          "mean": 0.17754804909985183,
+          "sd": 0.023030754644676948
+        },
+        "individual_mean": {
+          "mean": 32.05419395094978,
+          "sd": 0.5613756539137679
+        },
+        "polarization": {
+          "mean": 0.8858581687827873,
+          "sd": 0.008048947472589902
+        },
+        "low_height_fraction": {
+          "mean": 0.3647916666666666,
+          "sd": 0.002690169384420329
+        },
+        "participation_mean": {
+          "mean": 0.44976038738274865,
+          "sd": 0.00963149089709642
+        },
+        "class_next_rho": {
+          "mean": -0.18395259264762878,
+          "sd": 0.05335994608467896
+        }
+      },
+      "flagged_runs": 0,
+      "all_runs_flagged": false
+    },
+    "A2": {
+      "label": "No oxygen drive",
+      "n": 10,
+      "seeds": [
+        9001,
+        9002,
+        9003,
+        9004,
+        9005,
+        9006,
+        9007,
+        9008,
+        9009,
+        9010
+      ],
+      "seconds": 3600.0,
+      "statistics": {
+        "gap_mean": {
+          "mean": 88.74331143970296,
+          "sd": 9.618556902457723
+        },
+        "small_fraction": {
+          "mean": 0.9074870589454754,
+          "sd": 0.0600272770761619
+        },
+        "individual_mean": {
+          "mean": 631.2507341861972,
+          "sd": 111.86598584514478
+        },
+        "polarization": {
+          "mean": 0.9781523087072426,
+          "sd": 0.0019056233393006383
+        },
+        "low_height_fraction": {
+          "mean": 0.7414848484848484,
+          "sd": 0.007764582799244408
+        },
+        "participation_mean": {
+          "mean": 0.08250855957555372,
+          "sd": 0.01784074948988533
+        },
+        "class_next_rho": {
+          "mean": 0.020118881710012332,
+          "sd": 0.12911411364075664
+        }
+      },
+      "flagged_runs": 0,
+      "all_runs_flagged": false
+    },
+    "A8": {
+      "label": "No orientation or attraction",
+      "n": 10,
+      "seeds": [
+        9001,
+        9002,
+        9003,
+        9004,
+        9005,
+        9006,
+        9007,
+        9008,
+        9009,
+        9010
+      ],
+      "seconds": 7500.0,
+      "statistics": {
+        "gap_mean": {
+          "mean": 1.3384968632961656,
+          "sd": 0.03537665702462809
+        },
+        "small_fraction": {
+          "mean": 0.18412091960788085,
+          "sd": 0.02481118828543886
+        },
+        "individual_mean": {
+          "mean": 64.37219116835075,
+          "sd": 0.04353905724369978
+        },
+        "polarization": {
+          "mean": 0.06736778206575424,
+          "sd": 0.0003877499841436443
+        },
+        "low_height_fraction": {
+          "mean": 0.9963888888888889,
+          "sd": 0.0009951011694539192
+        },
+        "participation_mean": {
+          "mean": 0.5525676596057516,
+          "sd": 0.024851531065801645
+        },
+        "class_next_rho": {
+          "mean": 0.04502381119067982,
+          "sd": 0.11045005168698593
+        }
+      },
+      "flagged_runs": 10,
+      "all_runs_flagged": true
+    },
+    "A6": {
+      "label": "No surface avoidance",
+      "n": 10,
+      "seeds": [
+        9001,
+        9002,
+        9003,
+        9004,
+        9005,
+        9006,
+        9007,
+        9008,
+        9009,
+        9010
+      ],
+      "seconds": 7500.0,
+      "statistics": {
+        "gap_mean": {
+          "mean": 18.408755721421677,
+          "sd": 0.788527728843222
+        },
+        "small_fraction": {
+          "mean": 0.04584791885112298,
+          "sd": 0.01746374677983864
+        },
+        "individual_mean": {
+          "mean": 43.377480536500926,
+          "sd": 0.7757264709517298
+        },
+        "polarization": {
+          "mean": 0.8721247557889683,
+          "sd": 0.009202132469953384
+        },
+        "low_height_fraction": {
+          "mean": 0.6446666666666666,
+          "sd": 0.012090196007764831
+        },
+        "participation_mean": {
+          "mean": 0.5267833398419723,
+          "sd": 0.011217047129146509
+        },
+        "class_next_rho": {
+          "mean": 0.4754590144560634,
+          "sd": 0.07481764533729926
+        }
+      },
+      "flagged_runs": 0,
+      "all_runs_flagged": false
+    }
+  },
+  "rules": {
+    "burn_s": 300,
+    "saved_trajectory_interval_s": 1,
+    "episode_prefix": "Keep completed episodes with exit <= analysis horizon before grouping.",
+    "collective_events": "Original metrics_w2.canonical: release-to-exit chains with 1-s separation; unique participants; event start >=300 s and event end <=T-2 s.",
+    "individual_intervals": "Consecutive completed episodes per fish; preceding exit >=300 s and next release <=T; pool intervals within each run.",
+    "trace_time_mask": "300 <= saved time < T (final sample excluded).",
+    "polarization": "Norm of mean 3D heading over current schooling fish, averaged across retained samples.",
+    "low_height_fraction": "Fraction of retained samples with the whole-population median height <1 BL.",
+    "rhythm_flag": "Descriptive post-hoc flag: mean schooling polarization <0.2 AND low_height_fraction >=0.95. Not a statistical test for periodicity.",
+    "uncertainty": "Equal-weight run means; \u00b11 sample SD (ddof=1).",
+    "baseline": "Ten W1 runs truncated to7500 s; do not substitute their full13440-s metrics.",
+    "horizons": {
+      "A0": 7500.0,
+      "A1": 7500.0,
+      "A2": 3600.0,
+      "A8": 7500.0,
+      "A6": 7500.0
+    }
+  }
+}
