@@ -1,82 +1,46 @@
-# Code and data: "Moving together, breathing together: a spatial model of collective breathing"
+# Data: "Moving together, breathing together: a spatial model of collective breathing"
 
-This folder holds the simulation model, the data behind every figure and table, and the
-scripts that draw the figures. Lengths are in body lengths (BL) and times in seconds.
+This repository holds the data behind every figure and table of the article. It contains data
+only; it holds no program code. Lengths are in body lengths (BL) and times in seconds.
 
 ## Contents
 
 | Folder | What it holds |
 |---|---|
-| `model/` | The model (`rz75_model.py`, NumPy only), its reference parameters, the event definitions, and a short example run. |
-| `figures/` | One folder per figure: the figure as it appears in the article (PDF and editable SVG), a script that redraws it, and its `source_data/`. |
+| `figures/` | One folder per figure: the figure as it appears in the article (PDF and editable SVG) and the values it shows, in `source_data/`. |
 | `tables/` | The values behind Table 1 and the supplementary tables. |
-| `data/empirical/` | The recorded data of Bartashevich et al. (2026), used for every comparison with the recording. |
 | `data/reference_simulations/` | The ten reference simulations: run records, per-run statistics and event-level results. |
 | `data/other_simulations/` | Run definitions and summaries of the other simulation sets (component removal, depth, group size, isolated fish, zone radii). |
-| `analysis_scripts_as_run/` | The scripts that produced the simulations and summaries, exactly as they were run. Kept as a record; see the note at the end. |
-| `COPIED_FILES.csv` | Every file with its size, SHA-256 and where it came from in the working project. |
+| `data/empirical/` | The recorded data of Bartashevich et al. (2026), used for every comparison with the recording. |
+| `COPIED_FILES.csv` | Every file with its size and SHA-256. |
 
-## Requirements
+File formats: CSV and JSON are plain text. The `.npz` files are NumPy archives and open with
+`numpy.load`.
 
-Python 3.11 with NumPy, SciPy, pandas and Matplotlib (`requirements.txt` lists the versions used).
-The model itself needs only NumPy. The figures use Arial or Helvetica when installed and
-otherwise fall back to the Matplotlib default font.
+## Figures and their source data
 
-## Running the model
+Each `figures/<figure>/source_data/` folder holds the values of that figure.
 
-```sh
-cd model
-python run_example.py            # 900 s, seed 9001; takes a minute or two
-python run_example.py 13440 9001 # one full reference run (roughly half an hour)
-```
+| Figure | Folder | Source data |
+|---|---|---|
+| 1 Model schematic | `fig1_model_schematic` | none (drawing) |
+| 2 Intervals and participation | `fig2_intervals_and_participation` | `plotted_values.json`: all plotted values. `histogram_source.csv`: interval histograms in 2-s bins for the recording, each of the ten reference runs, and the published model of Bartashevich et al. (peak-to-peak intervals; not plotted). `record_uncertainty.json`: statistics of the recording with confidence intervals. `ensemble.json`: statistics across the ten runs. `g1_shoal.json`: interval-distribution fits, including the recorded Laplace fit. |
+| 3 Rest–rise cycle | `fig3_rest_rise_cycle` | `example_individual_traces.csv`: panels a,b (reference run 9001, 300–420 s). `aligned_per_run.csv` and `aligned_ensemble.csv`: panel c, signals aligned to lift-off (D oxygen drive, B active breaths, H median height). `peak_times.csv`: panel d, one row per lift-off window (5,733 windows). `window_counts.csv`, `summary.json`: counts and lag values. |
+| 4 Component removal | `fig4_component_removal` | `per_run_metrics.csv`: one row per run (five conditions × ten runs). `plotted_summary.csv`: plotted means and SDs. `summary.csv`, `summary.json`, `table_S6.csv`, `caption_counts.json`: condition summaries. `record_uncertainty.json`: recorded values and confidence intervals. |
+| 5 Recruitment and replenishment | `fig5_recruitment_and_replenishment` | `plotted_values.json`: all plotted values, by panel (`a`–`f`). `a_counts.csv`, `b_c_d_run_means.csv`, `c_isolated_runs.csv`, `d_event_rest.csv`, `e_drive_per_run.csv`: run-level and event-level values behind panels a–e. |
+| 6 Depth and group size | `fig6_depth_and_group_size` | `plotted_values.json`: all plotted values. `per_run_metrics.csv`: depth runs (column `depth`). `groups.json`: group-size runs in the fixed tank (`same_N…`) and at fixed density (`density_N…`). |
+| S1 Schooling regime | `figS1_schooling_regime` | `movement_summary.csv`: panels a,b. `breathing_summary.csv`: panel c. `schooling_runs.json`, `attraction_radius_runs.csv`: the runs behind them. |
+| S2 Vertical sorting | `figS2_vertical_sorting` | `sorting.json`: panel a, with the shuffled null. `sorting_per_run.csv`, `sorting_per_run_curves/`: per-run values. `type_shares_source.json`: panel b (key `supplementary_type_shares`). |
 
-In Python:
-
-```python
-from rz75_model import RZ75Sim, parameters
-from collective_events import collective_statistics
-
-p = parameters()                               # reference parameters of the article
-sim = RZ75Sim(p, seed=9001, audit_burn=300.)
-data = sim.run(13440., sample_dt=1.)           # positions, headings, reserves, states, breaths
-stats = collective_statistics(data['episodes13'], p.N, 13440., burn=300.)
-```
-
-`parameters(name=value, ...)` changes parameters, for example `parameters(kappa_bottom=0.)`
-removes the rest zone and `parameters(N=50)` changes the group size. `model/README.md` maps each
-equation of the article to the code and describes the random streams and the order of operations.
-`collective_statistics` reproduces the saved statistics of the reference runs exactly from their
-breath tables.
-
-## Redrawing the figures
-
-Each script reads only the `source_data/` beside it and runs in a few seconds. No simulation is run.
-
-```sh
-python figures/fig2_intervals_and_participation/plot_fig2.py           # writes into the figure folder
-python figures/fig2_intervals_and_participation/plot_fig2.py some/dir  # or into another folder
-```
-
-| Figure | Folder | Script | Simulations behind it |
-|---|---|---|---|
-| 1 Model schematic | `fig1_model_schematic` | `draw_fig1.py` | none (drawing) |
-| 2 Intervals and participation | `fig2_intervals_and_participation` | `plot_fig2.py` | ten reference runs; recording |
-| 3 Rest–rise cycle | `fig3_rest_rise_cycle` | `plot_fig3.py` | a,b: reference run 9001; c,d: ten reference runs, 5,733 lift-off windows |
-| 4 Component removal | `fig4_component_removal` | `plot_fig4.py` | five conditions × ten runs |
-| 5 Recruitment and replenishment | `fig5_recruitment_and_replenishment` | `plot_fig5.py` | ten reference runs; isolated fish; rest-zone variants |
-| 6 Depth and group size | `fig6_depth_and_group_size` | `plot_fig6.py` | depth runs and group-size runs |
-| S1 Schooling regime | `figS1_schooling_regime` | `plot_figS1.py` | zone-width grid without breathing; zone radii ±20 % |
-| S2 Vertical sorting | `figS2_vertical_sorting` | `plot_figS2.py` | ten reference runs |
-
-On the computer used for the article, all eight scripts reproduce the published PDFs pixel for
-pixel. Another Matplotlib version or another font can shift text by small amounts.
+Condition codes in the `arm` column of `per_run_metrics.csv`: `A0` full model, `A1` no rest zone,
+`A2` no oxygen drive, `A6` no surface avoidance, `A8` no orientation or attraction.
 
 ## Tables
 
 | Table | Source |
 |---|---|
 | Table 1, recorded and simulated statistics | `tables/table1_record_vs_model.csv`; best-fitting family from `tables/tableS_interval_distribution_fits.csv` |
-| Supplementary parameters | `model/reference_parameters.json` |
+| Supplementary parameters | `tables/reference_parameters.json` |
 | Supplementary isolated-fish targets and rates | `tables/supplementary_table_values.json` (key `isolated`); intervals in `tables/tableS_isolated_fish_intervals.json` |
 | Supplementary interval-distribution fits | `tables/tableS_interval_distribution_fits.csv` |
 | Supplementary component removal | `tables/tableS_component_removal.csv` |
@@ -110,28 +74,18 @@ In `data/reference_simulations/`:
 
 ## What is not included
 
-The full simulation output (positions, headings and reserves of every fish each second, and the
-tables of all breaths and decisions) is not included. It is about 100 MB per reference run and several
-GB in total. Each run can be regenerated from its seed and parameters in the run records.
+- The program code of the model and of the analyses.
+- The full simulation output (positions, headings and reserves of every fish each second, and the
+  tables of all breaths and decisions). It is about 100 MB per reference run and several GB in total.
 
-## Notes on provenance
+## Notes
 
-- The reference, component-removal, depth, group-size and isolated-fish runs were made with the
-  development version of the model, a chain of Python classes built up step by step.
-  `model/rz75_model.py` is that model written as one file. It gave byte-identical output to the
-  development version in all 16 test runs, which cover the reference shoal, isolated fish and
-  several parameter changes (`analysis_scripts_as_run/model_consolidation/REPORT.md`).
-  The schooling-regime runs were made with `rz75_model.py` directly.
-- `model/reference_parameters.json` is the parameter record of the development version. It also lists
-  switches of mechanisms that were tested and removed; they are all off and do not exist in `rz75_model.py`.
-- The files in `analysis_scripts_as_run/` are unchanged copies. They read the full simulation output and
-  contain file paths of the computer they ran on, so they do not run from this folder. They document how
-  each summary was computed. The scripts in `figures/` and `model/` are the ones meant to be run.
+- `tables/reference_parameters.json` is the parameter record of the simulations. It also lists switches
+  of mechanisms that were tested and removed during development; they are all off.
 - Some summary files hold more than the article shows (further model variants in `per_run_metrics*.csv`
   and `supplementary_table_values.json`, composition variants in `groups.json`).
-- Two files are extracts rather than copies: `figures/figS1_schooling_regime/source_data/attraction_radius_runs.csv`
-  and `data/other_simulations/parameter_perturbations/perturbation_runs_used.csv` contain only the rows of
-  the perturbation table that the article uses. `COPIED_FILES.csv` marks them.
+- Run records and protocols name the program files that produced each run, with their checksums.
+  Those files are not part of this repository.
 
 ## Recorded data
 

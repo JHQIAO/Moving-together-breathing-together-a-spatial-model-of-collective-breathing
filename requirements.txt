@@ -1,5 +1,0 @@
-# Versions used for the article (Python 3.11.8). The model needs only NumPy.
-numpy==2.4.3
-scipy==1.16.3
-pandas==2.3.3
-matplotlib==3.10.6
